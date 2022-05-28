@@ -1,0 +1,7 @@
+Target dependency graph (3 targets)
+ZERO_CHECK in PointDetector, no dependencies
+point_detector in PointDetector, depends on:
+ZERO_CHECK in PointDetector (explicit)
+ALL_BUILD in PointDetector, depends on:
+ZERO_CHECK in PointDetector (explicit)
+point_detector in PointDetector (explicit)

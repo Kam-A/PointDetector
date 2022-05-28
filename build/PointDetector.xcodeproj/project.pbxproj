@@ -1,0 +1,735 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		9CF51C8DA90C42D88F58E1E8 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A0839308019E48148760BA77 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				8538C2F6EFF1D4E7A65BB048 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				B1B31DAD15FE44B69E64C910 /* PBXTargetDependency */,
+				7F2DFA2EC6874841BCF766FA /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		D131F05F8A154C2DA23D8E72 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 35C0F8509EEE45C6AE6176BA /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				E89B5C315CBA72D3B6BD3AE6 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		49D3825EF1E04A27ADD6ACE9 /* input_reader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17776EAAE2A04E469BAF82EA /* input_reader.cpp */; };
+		B7A5475B9F8E475C94A86533 /* basket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 70B5033EE3544EF6A15CD1BD /* basket.cpp */; };
+		CEE43D9E28420EB400D79F76 /* line.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEE43D9D28420EB400D79F76 /* line.cpp */; };
+		F075CC15E794415C93749E59 /* detector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9EEEA913EA9A4F7C9EDD30BB /* detector.cpp */; };
+		F07B411B641A4BE28A65793C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CD2A20795F6473D8057EE3D /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1232E841BDF4E148409D7E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C32BA4B553A4761B1671EAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABFF91974DBA4C2AA0C86402;
+			remoteInfo = point_detector;
+		};
+		D97A24EDCED34A1FA712694D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C32BA4B553A4761B1671EAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D131F05F8A154C2DA23D8E72;
+			remoteInfo = ZERO_CHECK;
+		};
+		FA954058C6874A9F840962BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C32BA4B553A4761B1671EAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D131F05F8A154C2DA23D8E72;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17776EAAE2A04E469BAF82EA /* input_reader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = input_reader.cpp; path = src/input_reader.cpp; sourceTree = SOURCE_ROOT; };
+		28225FD3897B45A6B1E71E08 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		5D9C598C9A9240588587D21E /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		693D15BBE9A74069A612E26F /* input_reader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = input_reader.h; path = src/input_reader.h; sourceTree = SOURCE_ROOT; };
+		70B5033EE3544EF6A15CD1BD /* basket.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = basket.cpp; path = src/basket.cpp; sourceTree = SOURCE_ROOT; };
+		8D41EFDEB558496B9B337C83 /* line.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = line.h; path = src/line.h; sourceTree = SOURCE_ROOT; };
+		9CD2A20795F6473D8057EE3D /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		9EEEA913EA9A4F7C9EDD30BB /* detector.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = detector.cpp; path = src/detector.cpp; sourceTree = SOURCE_ROOT; };
+		A4B331EE59F544998D33C1ED /* basket.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = basket.h; path = src/basket.h; sourceTree = SOURCE_ROOT; };
+		A6215C0E1A8F40009512D9B7 /* point_detector */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = point_detector; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE43D9D28420EB400D79F76 /* line.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = line.cpp; path = src/line.cpp; sourceTree = "<group>"; };
+		DE280B6F154E4E97AD8ABA76 /* detector.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = detector.h; path = src/detector.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		249595AFE98647498F23813D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		068A2C4F552B4AD7B94E27A5 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				DE178454ACBC43B99829C0E1 /* CMake Rules */,
+				28225FD3897B45A6B1E71E08 /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		2F7A1564711B4E0F91087396 /* point_detector */ = {
+			isa = PBXGroup;
+			children = (
+				E095431D39CA43A6828D3D41 /* Source Files */,
+				C5DBA291BA65495FA9E5723F /* Header Files */,
+				5D9C598C9A9240588587D21E /* CMakeLists.txt */,
+			);
+			name = point_detector;
+			sourceTree = "<group>";
+		};
+		75A6DD296DCD499AB7F4A0BA = {
+			isa = PBXGroup;
+			children = (
+				2F7A1564711B4E0F91087396 /* point_detector */,
+				068A2C4F552B4AD7B94E27A5 /* ALL_BUILD */,
+				C270E923BC6741ACA0496677 /* Products */,
+				D77B6CAF3BEB4841A578373E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C270E923BC6741ACA0496677 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6215C0E1A8F40009512D9B7 /* point_detector */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5DBA291BA65495FA9E5723F /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4B331EE59F544998D33C1ED /* basket.h */,
+				DE280B6F154E4E97AD8ABA76 /* detector.h */,
+				693D15BBE9A74069A612E26F /* input_reader.h */,
+				8D41EFDEB558496B9B337C83 /* line.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		D77B6CAF3BEB4841A578373E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE178454ACBC43B99829C0E1 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		E095431D39CA43A6828D3D41 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				70B5033EE3544EF6A15CD1BD /* basket.cpp */,
+				9EEEA913EA9A4F7C9EDD30BB /* detector.cpp */,
+				17776EAAE2A04E469BAF82EA /* input_reader.cpp */,
+				CEE43D9D28420EB400D79F76 /* line.cpp */,
+				9CD2A20795F6473D8057EE3D /* main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABFF91974DBA4C2AA0C86402 /* point_detector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 136FDED6B1EE4E9B9B633DC4 /* Build configuration list for PBXNativeTarget "point_detector" */;
+			buildPhases = (
+				9942D96E5DCF4472A149D4C4 /* Sources */,
+				249595AFE98647498F23813D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7662E3FA4C3D427797AD2806 /* PBXTargetDependency */,
+			);
+			name = point_detector;
+			productName = point_detector;
+			productReference = A6215C0E1A8F40009512D9B7 /* point_detector */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C32BA4B553A4761B1671EAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1340;
+			};
+			buildConfigurationList = 1784D2C66E5B4DAFB9136207 /* Build configuration list for PBXProject "PointDetector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75A6DD296DCD499AB7F4A0BA;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				9CF51C8DA90C42D88F58E1E8 /* ALL_BUILD */,
+				D131F05F8A154C2DA23D8E72 /* ZERO_CHECK */,
+				ABFF91974DBA4C2AA0C86402 /* point_detector */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8538C2F6EFF1D4E7A65BB048 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+				/Users/user/PointDetector/build/CMakeFiles/ALL_BUILD,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nif test \"$CONFIGURATION\" = \"Debug\"; then :\n  cd /Users/user/PointDetector/build\n  echo Build\\ all\\ projects\nfi\nif test \"$CONFIGURATION\" = \"Release\"; then :\n  cd /Users/user/PointDetector/build\n  echo Build\\ all\\ projects\nfi\nif test \"$CONFIGURATION\" = \"MinSizeRel\"; then :\n  cd /Users/user/PointDetector/build\n  echo Build\\ all\\ projects\nfi\nif test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :\n  cd /Users/user/PointDetector/build\n  echo Build\\ all\\ projects\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E89B5C315CBA72D3B6BD3AE6 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+				/Users/user/PointDetector/build/CMakeFiles/ZERO_CHECK,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nif test \"$CONFIGURATION\" = \"Debug\"; then :\n  cd /Users/user/PointDetector/build\n  make -f /Users/user/PointDetector/build/CMakeScripts/ReRunCMake.make\nfi\nif test \"$CONFIGURATION\" = \"Release\"; then :\n  cd /Users/user/PointDetector/build\n  make -f /Users/user/PointDetector/build/CMakeScripts/ReRunCMake.make\nfi\nif test \"$CONFIGURATION\" = \"MinSizeRel\"; then :\n  cd /Users/user/PointDetector/build\n  make -f /Users/user/PointDetector/build/CMakeScripts/ReRunCMake.make\nfi\nif test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :\n  cd /Users/user/PointDetector/build\n  make -f /Users/user/PointDetector/build/CMakeScripts/ReRunCMake.make\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9942D96E5DCF4472A149D4C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7A5475B9F8E475C94A86533 /* basket.cpp in Sources */,
+				F075CC15E794415C93749E59 /* detector.cpp in Sources */,
+				49D3825EF1E04A27ADD6ACE9 /* input_reader.cpp in Sources */,
+				CEE43D9E28420EB400D79F76 /* line.cpp in Sources */,
+				F07B411B641A4BE28A65793C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7662E3FA4C3D427797AD2806 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D131F05F8A154C2DA23D8E72 /* ZERO_CHECK */;
+			targetProxy = D97A24EDCED34A1FA712694D /* PBXContainerItemProxy */;
+		};
+		7F2DFA2EC6874841BCF766FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABFF91974DBA4C2AA0C86402 /* point_detector */;
+			targetProxy = B1232E841BDF4E148409D7E9 /* PBXContainerItemProxy */;
+		};
+		B1B31DAD15FE44B69E64C910 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D131F05F8A154C2DA23D8E72 /* ZERO_CHECK */;
+			targetProxy = FA954058C6874A9F840962BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		089BB369CBD7419B92A33CAC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/user/PointDetector/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		08E44C2F1D1D44089C4C848D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/user/PointDetector/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		2A78B5334C904B719A3272A9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/user/PointDetector/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		3A4A66C5104043499644A25B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = /Users/user/PointDetector/build/build;
+			};
+			name = Release;
+		};
+		53B20708796F408A978768F1 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = /Users/user/PointDetector/build/build;
+			};
+			name = MinSizeRel;
+		};
+		5EB96A99E4EA4CBE93C29484 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-march=native'",
+					"'-std=gnu++14'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-framework",
+					Accelerate,
+					"-lm",
+					"-ldl",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = point_detector;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/user/PointDetector/build;
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/xtensor/0.24.2/include,
+					/usr/local/include,
+					"$(inherited)",
+				);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		609E8B911E91409AA20AE4FD /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/user/PointDetector/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		6A29DC25A98E42329AEDDD40 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-march=native'",
+					"'-std=gnu++14'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-framework",
+					Accelerate,
+					"-lm",
+					"-ldl",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = point_detector;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/user/PointDetector/build;
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/xtensor/0.24.2/include,
+					/usr/local/include,
+					"$(inherited)",
+				);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		8A4B8D02A4CC45D7B94466AA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = /Users/user/PointDetector/build/build;
+			};
+			name = RelWithDebInfo;
+		};
+		8CFC5BF1D06F41018F1C71AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/user/PointDetector/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		90A9493D399E44E58A7D2600 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"'-march=native'",
+					"'-std=gnu++14'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-framework",
+					Accelerate,
+					"-lm",
+					"-ldl",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = point_detector;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/user/PointDetector/build;
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/xtensor/0.24.2/include,
+					/usr/local/include,
+					"$(inherited)",
+				);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		9D8FAF79F8D441568A2B435D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/user/PointDetector/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		C907B542D93D4A3FB9B1D17F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/user/PointDetector/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		D1ED2079E51C44858865BE8B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/user/PointDetector/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		E7803C19E2BF49AF96A4DFA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-march=native'",
+					"'-std=gnu++14'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-framework",
+					Accelerate,
+					"-lm",
+					"-ldl",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = point_detector;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/user/PointDetector/build;
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/xtensor/0.24.2/include,
+					/usr/local/include,
+					"$(inherited)",
+				);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		F32FFBFDFC9444ABA7ABECBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = /Users/user/PointDetector/build/build;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		136FDED6B1EE4E9B9B633DC4 /* Build configuration list for PBXNativeTarget "point_detector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90A9493D399E44E58A7D2600 /* Debug */,
+				E7803C19E2BF49AF96A4DFA9 /* Release */,
+				6A29DC25A98E42329AEDDD40 /* MinSizeRel */,
+				5EB96A99E4EA4CBE93C29484 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1784D2C66E5B4DAFB9136207 /* Build configuration list for PBXProject "PointDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F32FFBFDFC9444ABA7ABECBC /* Debug */,
+				3A4A66C5104043499644A25B /* Release */,
+				53B20708796F408A978768F1 /* MinSizeRel */,
+				8A4B8D02A4CC45D7B94466AA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		35C0F8509EEE45C6AE6176BA /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D8FAF79F8D441568A2B435D /* Debug */,
+				08E44C2F1D1D44089C4C848D /* Release */,
+				2A78B5334C904B719A3272A9 /* MinSizeRel */,
+				089BB369CBD7419B92A33CAC /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A0839308019E48148760BA77 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C907B542D93D4A3FB9B1D17F /* Debug */,
+				8CFC5BF1D06F41018F1C71AB /* Release */,
+				D1ED2079E51C44858865BE8B /* MinSizeRel */,
+				609E8B911E91409AA20AE4FD /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C32BA4B553A4761B1671EAA /* Project object */;
+}

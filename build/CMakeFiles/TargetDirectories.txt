@@ -1,0 +1,3 @@
+/Users/user/PointDetector/build/CMakeFiles/point_detector.dir
+/Users/user/PointDetector/build/CMakeFiles/ALL_BUILD.dir
+/Users/user/PointDetector/build/CMakeFiles/ZERO_CHECK.dir
