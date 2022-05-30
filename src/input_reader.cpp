@@ -20,6 +20,5 @@ std::vector<Point> RequestPoint(Detector& detector, std::istream& input) {
         input >> end.x >> end.y;
         detector.AddLine({begin, end});
     }
-    detector.Process();
-    return detector.GetPoints();
+    return detector.Process();
 }

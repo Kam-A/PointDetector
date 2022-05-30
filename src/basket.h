@@ -25,8 +25,8 @@ public:
     double GetDistancesSum();
     int GetLineNumber() const;
     Point GetCenter();
-    std::set<const Line*> GetLines() const;
-    std::pair<Point, std::map<const Line*, double>> GetIntersections() const;
+    const std::set<const Line*>& GetLines() const;
+    void Clear();
 private:
     std::set<const Line*> lines_;
     Point center_;
