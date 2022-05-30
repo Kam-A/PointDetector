@@ -45,7 +45,7 @@ std::vector<Point> Detector::FindCenterBySmallDistanceIntersection() {
     std::vector<std::array<double, 2>> all_precise_intersection;
     int count = 0;
     for (auto& line_idx : line_idx_to_chg) {
-        if (all_precise_intersection.size() > 10'000) {
+        if (all_precise_intersection.size() > 20'000) {
             std::cout << "full points container" << std::endl;
             break;
         }
