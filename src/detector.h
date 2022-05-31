@@ -13,7 +13,7 @@ public:
     std::vector<Point> Process();
     double GetTotalDistance();
     std::vector<Point> GetPoints();
-    
+    int GetLineNumber();
 private:
     void InitStateDistributionBySlope();
     void InitStateDistributionByRandomPoints();

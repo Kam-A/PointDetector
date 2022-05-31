@@ -39,22 +39,21 @@ bool IsPointInSquare(Point point) {
     }
 }
 std::vector<Point> Detector::FindCenterBySmallDistanceIntersection() {
-    std::vector<std::vector<int>> line_idx_to_chg = Combination(lines_.size(), 3);
-    std::shuffle(line_idx_to_chg.begin(), line_idx_to_chg.end(), std::random_device());
     std::cout << "combination ready" << std::endl;
     std::vector<std::array<double, 2>> all_precise_intersection;
     int count = 0;
-    for (auto& line_idx : line_idx_to_chg) {
-        if (all_precise_intersection.size() > 20'000) {
+    while (true) {
+        std::vector<int> line_idx = GenerateNumbers(generator_, 3, lines_.size() - 1);
+        if (all_precise_intersection.size() > 10'000) {
             std::cout << "full points container" << std::endl;
             break;
         }
         if (count % 1000 == 0) {
-            std::cout << count << std::endl;
+            std::cout << all_precise_intersection.size() << std::endl;
         }
-        std::set<const Line*> line_to_check{&lines_[line_idx[0] - 1],
-                                            &lines_[line_idx[1] - 1],
-                                            &lines_[line_idx[2] - 1]};
+        std::set<const Line*> line_to_check{&lines_[line_idx[0]],
+                                            &lines_[line_idx[1]],
+                                            &lines_[line_idx[2]]};
         std::pair<Point, std::map<const Line*, double>> point_dist = GetIntersections(line_to_check);
         double three_sum_line = std::accumulate(point_dist.second.begin(), point_dist.second.end(),
                                                 0.0,
@@ -317,4 +316,8 @@ bool Detector::IsPointClose() {
         }
     }
     return false;
+}
+
+int Detector::GetLineNumber() {
+    return lines_.size();
 }
