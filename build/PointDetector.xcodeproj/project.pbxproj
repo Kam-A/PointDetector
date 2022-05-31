@@ -9,20 +9,20 @@
 /* Begin PBXAggregateTarget section */
 		9CF51C8DA90C42D88F58E1E8 /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 36E0515622A74DD7BD416549 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = A16DF9EAE7D34047A31D1779 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
 				8538C2F6EFF1D4E7A65BB048 /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				5F32F9322397418C9A08B91D /* PBXTargetDependency */,
-				FD8C4E0CC4E44DC9BE2F6121 /* PBXTargetDependency */,
+				A202377260644A20BB8AA90D /* PBXTargetDependency */,
+				7134334D047144159C963122 /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
 		};
 		D131F05F8A154C2DA23D8E72 /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 70EC360D4DF743BF9E2C2D8E /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = 9FF62FA0AA5E4126A28AD97F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
 				E89B5C315CBA72D3B6BD3AE6 /* Generate CMakeFiles/ZERO_CHECK */,
 			);
@@ -34,66 +34,66 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		1465FAEE621346788A17FAEF /* /Users/user/PointDetector/src/line.h */ = {isa = PBXBuildFile; fileRef = 5258245C20F14E3BB6B2DCBE /* /Users/user/PointDetector/src/line.h */; };
-		36BC2DA827E640FBBF21EADC /* /Users/user/PointDetector/src/basket.h */ = {isa = PBXBuildFile; fileRef = 53EE0AE55D124F75AF3043B6 /* /Users/user/PointDetector/src/basket.h */; };
-		72E0BB095EF849789D7975F8 /* /Users/user/PointDetector/src/detector.cpp */ = {isa = PBXBuildFile; fileRef = 290CEBBED85A4B2E904AD8E0 /* /Users/user/PointDetector/src/detector.cpp */; };
-		8221DC1B1A2344D7B86E719A /* /Users/user/PointDetector/src/basket.cpp */ = {isa = PBXBuildFile; fileRef = F819E8AAF81B4C28901B88DD /* /Users/user/PointDetector/src/basket.cpp */; };
-		A52AD3F6D5454203AAC22AD7 /* /Users/user/PointDetector/src/input_reader.cpp */ = {isa = PBXBuildFile; fileRef = 780239195369445F970AA0F9 /* /Users/user/PointDetector/src/input_reader.cpp */; };
-		C4E1068123AA46528BBC93D9 /* /Users/user/PointDetector/src/line.cpp */ = {isa = PBXBuildFile; fileRef = 3F51103414174EBB84C0369B /* /Users/user/PointDetector/src/line.cpp */; };
-		CC4DF270A5F1468EB205765A /* /Users/user/PointDetector/src/main.cpp */ = {isa = PBXBuildFile; fileRef = 09F17C25189241A0AE6E8553 /* /Users/user/PointDetector/src/main.cpp */; };
-		D324FA9C4BDF44CBAE1B37E2 /* /Users/user/PointDetector/src/input_reader.h */ = {isa = PBXBuildFile; fileRef = 9F911C60017A4009BD7D3A28 /* /Users/user/PointDetector/src/input_reader.h */; };
-		E3B123362F4A421A9CBF1B11 /* /Users/user/PointDetector/src/detector.h */ = {isa = PBXBuildFile; fileRef = E8E67035FCDC4723B6F77442 /* /Users/user/PointDetector/src/detector.h */; };
-		E891B81BFF324D828DBAAC3F /* /Users/user/PointDetector/src/dkm.h */ = {isa = PBXBuildFile; fileRef = 09653E2ED2D242FF9860B439 /* /Users/user/PointDetector/src/dkm.h */; };
-		F5D4F73DFDA9427BBFFC2211 /* /Users/user/PointDetector/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 86143DEF8C314A4BB7E9A550 /* /Users/user/PointDetector/CMakeLists.txt */; };
+		1233ED6C299443CFBF65BB42 /* /Users/user/PointDetector/src/input_reader.h */ = {isa = PBXBuildFile; fileRef = 2297849EA07E48E291808FDE /* /Users/user/PointDetector/src/input_reader.h */; };
+		2BCF55C9D6F94AC2B48AB644 /* /Users/user/PointDetector/src/detector.h */ = {isa = PBXBuildFile; fileRef = 7CAE9D3A652243F09F487825 /* /Users/user/PointDetector/src/detector.h */; };
+		33FAFEC51185454C88BA3BF4 /* /Users/user/PointDetector/src/basket.h */ = {isa = PBXBuildFile; fileRef = ED6BE182DDF342FA9A34F303 /* /Users/user/PointDetector/src/basket.h */; };
+		3D828A1065924C15B6FB6D1B /* /Users/user/PointDetector/src/dkm.h */ = {isa = PBXBuildFile; fileRef = 62D7325BF65341428D985593 /* /Users/user/PointDetector/src/dkm.h */; };
+		4884F1D8D3D147EDBF7A9263 /* /Users/user/PointDetector/src/line.cpp */ = {isa = PBXBuildFile; fileRef = 6D54301319164B5C95116389 /* /Users/user/PointDetector/src/line.cpp */; };
+		71B4613DA6BD4C2DBA9A3789 /* /Users/user/PointDetector/src/detector.cpp */ = {isa = PBXBuildFile; fileRef = A99A0DA6D85F4B8CB4E6B2FA /* /Users/user/PointDetector/src/detector.cpp */; };
+		7EDE3C3742394A4284E470DB /* /Users/user/PointDetector/src/main.cpp */ = {isa = PBXBuildFile; fileRef = FEE47B7D96EF441887DFBE11 /* /Users/user/PointDetector/src/main.cpp */; };
+		967243F47EDE422781DA73BB /* /Users/user/PointDetector/src/basket.cpp */ = {isa = PBXBuildFile; fileRef = 971CD8DBE7454734A57A93F8 /* /Users/user/PointDetector/src/basket.cpp */; };
+		9910BC16D7ED4F51B239ABBE /* /Users/user/PointDetector/src/line.h */ = {isa = PBXBuildFile; fileRef = 4683A5E3D614406A81F46B8C /* /Users/user/PointDetector/src/line.h */; };
+		E1A19048639A44408161CC3A /* /Users/user/PointDetector/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = E2AFB3211C8A49CD8AFC0E08 /* /Users/user/PointDetector/CMakeLists.txt */; };
+		ECE11676CE7A4E179324FC2A /* /Users/user/PointDetector/src/input_reader.cpp */ = {isa = PBXBuildFile; fileRef = 09279EF743384C0B95AE505D /* /Users/user/PointDetector/src/input_reader.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		252D25B6024547B7B18C470A /* Debug */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Debug;
-		};
-		644F9F6228124CAE994E7ED6 /* Release */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Release;
-		};
-		68CFDFA22AF54489BD8FD6F8 /* MinSizeRel */ = {
+		85943FEBF4C04B72972ECD68 /* MinSizeRel */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = MinSizeRel;
 		};
-		9E63F075C5B74E80ADF3C1C6 /* RelWithDebInfo */ = {
+		89FFE44E2DF24BF084ADE171 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		E304ECFE55864ABBBA69108F /* RelWithDebInfo */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = RelWithDebInfo;
 		};
+		F371C7F7A2C1488A90465E88 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		5CF0958CE0E142C08A3D53B5 /* PBXContainerItemProxy */ = {
+		32C79D6F04CB497C95525D96 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1C32BA4B553A4761B1671EAA /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D131F05F8A154C2DA23D8E72;
 			remoteInfo = ZERO_CHECK;
 		};
-		699D7AB5A7294BD4BBA8AB84 /* PBXContainerItemProxy */ = {
+		6C6000C4D8BB4FBCA673996A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1C32BA4B553A4761B1671EAA /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = ABFF91974DBA4C2AA0C86402;
 			remoteInfo = point_detector;
 		};
-		C6EC7E74A4D04DE4A1F8061B /* PBXContainerItemProxy */ = {
+		8E33B627C6684B2DBF977A8E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1C32BA4B553A4761B1671EAA /* Project object */;
 			proxyType = 1;
@@ -103,23 +103,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09653E2ED2D242FF9860B439 /* /Users/user/PointDetector/src/dkm.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = dkm.h; path = src/dkm.h; sourceTree = SOURCE_ROOT; };
-		09F17C25189241A0AE6E8553 /* /Users/user/PointDetector/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
-		1214E098A4C04D7A805247A4 /* /Users/user/PointDetector/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		290CEBBED85A4B2E904AD8E0 /* /Users/user/PointDetector/src/detector.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = detector.cpp; path = src/detector.cpp; sourceTree = SOURCE_ROOT; };
-		3AB07FDDCAD4468B854E1E31 /* point_detector */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = point_detector; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F51103414174EBB84C0369B /* /Users/user/PointDetector/src/line.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = line.cpp; path = src/line.cpp; sourceTree = SOURCE_ROOT; };
-		5258245C20F14E3BB6B2DCBE /* /Users/user/PointDetector/src/line.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = line.h; path = src/line.h; sourceTree = SOURCE_ROOT; };
-		53EE0AE55D124F75AF3043B6 /* /Users/user/PointDetector/src/basket.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = basket.h; path = src/basket.h; sourceTree = SOURCE_ROOT; };
-		780239195369445F970AA0F9 /* /Users/user/PointDetector/src/input_reader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = input_reader.cpp; path = src/input_reader.cpp; sourceTree = SOURCE_ROOT; };
-		86143DEF8C314A4BB7E9A550 /* /Users/user/PointDetector/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		9F911C60017A4009BD7D3A28 /* /Users/user/PointDetector/src/input_reader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = input_reader.h; path = src/input_reader.h; sourceTree = SOURCE_ROOT; };
-		E8E67035FCDC4723B6F77442 /* /Users/user/PointDetector/src/detector.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = detector.h; path = src/detector.h; sourceTree = SOURCE_ROOT; };
-		F819E8AAF81B4C28901B88DD /* /Users/user/PointDetector/src/basket.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = basket.cpp; path = src/basket.cpp; sourceTree = SOURCE_ROOT; };
+		09279EF743384C0B95AE505D /* /Users/user/PointDetector/src/input_reader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = input_reader.cpp; path = src/input_reader.cpp; sourceTree = SOURCE_ROOT; };
+		2297849EA07E48E291808FDE /* /Users/user/PointDetector/src/input_reader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = input_reader.h; path = src/input_reader.h; sourceTree = SOURCE_ROOT; };
+		4683A5E3D614406A81F46B8C /* /Users/user/PointDetector/src/line.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = line.h; path = src/line.h; sourceTree = SOURCE_ROOT; };
+		62D7325BF65341428D985593 /* /Users/user/PointDetector/src/dkm.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = dkm.h; path = src/dkm.h; sourceTree = SOURCE_ROOT; };
+		6D54301319164B5C95116389 /* /Users/user/PointDetector/src/line.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = line.cpp; path = src/line.cpp; sourceTree = SOURCE_ROOT; };
+		7CAE9D3A652243F09F487825 /* /Users/user/PointDetector/src/detector.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = detector.h; path = src/detector.h; sourceTree = SOURCE_ROOT; };
+		971CD8DBE7454734A57A93F8 /* /Users/user/PointDetector/src/basket.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = basket.cpp; path = src/basket.cpp; sourceTree = SOURCE_ROOT; };
+		A99A0DA6D85F4B8CB4E6B2FA /* /Users/user/PointDetector/src/detector.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = detector.cpp; path = src/detector.cpp; sourceTree = SOURCE_ROOT; };
+		B317B946C299450285B6CE31 /* point_detector */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = point_detector; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE9AB3C69194436BBC767201 /* /Users/user/PointDetector/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E2AFB3211C8A49CD8AFC0E08 /* /Users/user/PointDetector/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		ED6BE182DDF342FA9A34F303 /* /Users/user/PointDetector/src/basket.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = basket.h; path = src/basket.h; sourceTree = SOURCE_ROOT; };
+		FEE47B7D96EF441887DFBE11 /* /Users/user/PointDetector/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F0B3FD19F8424325AAB822B1 /* Frameworks */ = {
+		8E7797D367834F30A5988024 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -129,79 +129,79 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		26E6F62AB814490D83E85548 /* Header Files */ = {
+		1C9AC8BC626E46238258E42F /* ALL_BUILD */ = {
 			isa = PBXGroup;
 			children = (
-				53EE0AE55D124F75AF3043B6 /* /Users/user/PointDetector/src/basket.h */,
-				E8E67035FCDC4723B6F77442 /* /Users/user/PointDetector/src/detector.h */,
-				09653E2ED2D242FF9860B439 /* /Users/user/PointDetector/src/dkm.h */,
-				9F911C60017A4009BD7D3A28 /* /Users/user/PointDetector/src/input_reader.h */,
-				5258245C20F14E3BB6B2DCBE /* /Users/user/PointDetector/src/line.h */,
+				D5B6A4079556402B9C6682FA /* CMake Rules */,
+				DE9AB3C69194436BBC767201 /* /Users/user/PointDetector/CMakeLists.txt */,
 			);
-			name = "Header Files";
+			name = ALL_BUILD;
 			sourceTree = "<group>";
 		};
-		488E86A23FE340C39B7B825A /* point_detector */ = {
+		3A428963273743509F20E426 /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				AA92D56039844405ADE0E84D /* Source Files */,
-				26E6F62AB814490D83E85548 /* Header Files */,
-				86143DEF8C314A4BB7E9A550 /* /Users/user/PointDetector/CMakeLists.txt */,
-			);
-			name = point_detector;
-			sourceTree = "<group>";
-		};
-		495CC88C0FCC47778ABDA922 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3AB07FDDCAD4468B854E1E31 /* point_detector */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		5EBCB39ADD28477EBBC5C928 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		7FA7B75D746B4FFCAF7F9C0A = {
-			isa = PBXGroup;
-			children = (
-				488E86A23FE340C39B7B825A /* point_detector */,
-				FF4B6BB844F649109BC9EFD4 /* ALL_BUILD */,
-				495CC88C0FCC47778ABDA922 /* Products */,
-				5EBCB39ADD28477EBBC5C928 /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		AA92D56039844405ADE0E84D /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				F819E8AAF81B4C28901B88DD /* /Users/user/PointDetector/src/basket.cpp */,
-				290CEBBED85A4B2E904AD8E0 /* /Users/user/PointDetector/src/detector.cpp */,
-				780239195369445F970AA0F9 /* /Users/user/PointDetector/src/input_reader.cpp */,
-				3F51103414174EBB84C0369B /* /Users/user/PointDetector/src/line.cpp */,
-				09F17C25189241A0AE6E8553 /* /Users/user/PointDetector/src/main.cpp */,
+				971CD8DBE7454734A57A93F8 /* /Users/user/PointDetector/src/basket.cpp */,
+				A99A0DA6D85F4B8CB4E6B2FA /* /Users/user/PointDetector/src/detector.cpp */,
+				09279EF743384C0B95AE505D /* /Users/user/PointDetector/src/input_reader.cpp */,
+				6D54301319164B5C95116389 /* /Users/user/PointDetector/src/line.cpp */,
+				FEE47B7D96EF441887DFBE11 /* /Users/user/PointDetector/src/main.cpp */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
 		};
-		F9E80DA22D91412B97BEE93B /* CMake Rules */ = {
+		4347F148AD44433EB1FC640D /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED6BE182DDF342FA9A34F303 /* /Users/user/PointDetector/src/basket.h */,
+				7CAE9D3A652243F09F487825 /* /Users/user/PointDetector/src/detector.h */,
+				62D7325BF65341428D985593 /* /Users/user/PointDetector/src/dkm.h */,
+				2297849EA07E48E291808FDE /* /Users/user/PointDetector/src/input_reader.h */,
+				4683A5E3D614406A81F46B8C /* /Users/user/PointDetector/src/line.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		6874A5FE7F734DFDB76E1BDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B317B946C299450285B6CE31 /* point_detector */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E7412FFE66842B6A5CD85EA = {
+			isa = PBXGroup;
+			children = (
+				EBC98AA3339F41329661B076 /* point_detector */,
+				1C9AC8BC626E46238258E42F /* ALL_BUILD */,
+				6874A5FE7F734DFDB76E1BDC /* Products */,
+				EC51BD8A62C04BA8A4123016 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D5B6A4079556402B9C6682FA /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		FF4B6BB844F649109BC9EFD4 /* ALL_BUILD */ = {
+		EBC98AA3339F41329661B076 /* point_detector */ = {
 			isa = PBXGroup;
 			children = (
-				F9E80DA22D91412B97BEE93B /* CMake Rules */,
-				1214E098A4C04D7A805247A4 /* /Users/user/PointDetector/CMakeLists.txt */,
+				3A428963273743509F20E426 /* Source Files */,
+				4347F148AD44433EB1FC640D /* Header Files */,
+				E2AFB3211C8A49CD8AFC0E08 /* /Users/user/PointDetector/CMakeLists.txt */,
 			);
-			name = ALL_BUILD;
+			name = point_detector;
+			sourceTree = "<group>";
+		};
+		EC51BD8A62C04BA8A4123016 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,19 +209,19 @@
 /* Begin PBXNativeTarget section */
 		ABFF91974DBA4C2AA0C86402 /* point_detector */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7C62BA3859084E74991F1442 /* Build configuration list for PBXNativeTarget "point_detector" */;
+			buildConfigurationList = 8703E429D7654A02B8498D82 /* Build configuration list for PBXNativeTarget "point_detector" */;
 			buildPhases = (
-				257FDD129DE3496B8411EDBA /* Sources */,
-				F0B3FD19F8424325AAB822B1 /* Frameworks */,
+				629E70EA54EA486196EF5AC6 /* Sources */,
+				8E7797D367834F30A5988024 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0F6FDA964A654121BF5964E7 /* PBXTargetDependency */,
+				C7911D83BDCE49D48D782B54 /* PBXTargetDependency */,
 			);
 			name = point_detector;
 			productName = point_detector;
-			productReference = 3AB07FDDCAD4468B854E1E31 /* point_detector */;
+			productReference = B317B946C299450285B6CE31 /* point_detector */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -233,18 +233,18 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1340;
 			};
-			buildConfigurationList = 8860444F4A5544F986BDD401 /* Build configuration list for PBXProject "PointDetector" */;
+			buildConfigurationList = D4F3A10F61AB4E9F9FC3855D /* Build configuration list for PBXProject "PointDetector" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				252D25B6024547B7B18C470A /* Debug */,
-				644F9F6228124CAE994E7ED6 /* Release */,
-				68CFDFA22AF54489BD8FD6F8 /* MinSizeRel */,
-				9E63F075C5B74E80ADF3C1C6 /* RelWithDebInfo */,
+				89FFE44E2DF24BF084ADE171 /* Debug */,
+				F371C7F7A2C1488A90465E88 /* Release */,
+				85943FEBF4C04B72972ECD68 /* MinSizeRel */,
+				E304ECFE55864ABBBA69108F /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 7FA7B75D746B4FFCAF7F9C0A;
+			mainGroup = 6E7412FFE66842B6A5CD85EA;
 			projectDirPath = ../;
 			projectRoot = "";
 			targets = (
@@ -355,168 +355,40 @@ fi
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		257FDD129DE3496B8411EDBA /* Sources */ = {
+		629E70EA54EA486196EF5AC6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8221DC1B1A2344D7B86E719A /* /Users/user/PointDetector/src/basket.cpp */,
-				72E0BB095EF849789D7975F8 /* /Users/user/PointDetector/src/detector.cpp */,
-				A52AD3F6D5454203AAC22AD7 /* /Users/user/PointDetector/src/input_reader.cpp */,
-				C4E1068123AA46528BBC93D9 /* /Users/user/PointDetector/src/line.cpp */,
-				CC4DF270A5F1468EB205765A /* /Users/user/PointDetector/src/main.cpp */,
+				967243F47EDE422781DA73BB /* /Users/user/PointDetector/src/basket.cpp */,
+				71B4613DA6BD4C2DBA9A3789 /* /Users/user/PointDetector/src/detector.cpp */,
+				ECE11676CE7A4E179324FC2A /* /Users/user/PointDetector/src/input_reader.cpp */,
+				4884F1D8D3D147EDBF7A9263 /* /Users/user/PointDetector/src/line.cpp */,
+				7EDE3C3742394A4284E470DB /* /Users/user/PointDetector/src/main.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0F6FDA964A654121BF5964E7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D131F05F8A154C2DA23D8E72 /* ZERO_CHECK */;
-			targetProxy = C6EC7E74A4D04DE4A1F8061B /* PBXContainerItemProxy */;
-		};
-		5F32F9322397418C9A08B91D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D131F05F8A154C2DA23D8E72 /* ZERO_CHECK */;
-			targetProxy = 5CF0958CE0E142C08A3D53B5 /* PBXContainerItemProxy */;
-		};
-		FD8C4E0CC4E44DC9BE2F6121 /* PBXTargetDependency */ = {
+		7134334D047144159C963122 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = ABFF91974DBA4C2AA0C86402 /* point_detector */;
-			targetProxy = 699D7AB5A7294BD4BBA8AB84 /* PBXContainerItemProxy */;
+			targetProxy = 6C6000C4D8BB4FBCA673996A /* PBXContainerItemProxy */;
+		};
+		A202377260644A20BB8AA90D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D131F05F8A154C2DA23D8E72 /* ZERO_CHECK */;
+			targetProxy = 8E33B627C6684B2DBF977A8E /* PBXContainerItemProxy */;
+		};
+		C7911D83BDCE49D48D782B54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D131F05F8A154C2DA23D8E72 /* ZERO_CHECK */;
+			targetProxy = 32C79D6F04CB497C95525D96 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1A2418363501495BA1090442 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/user/PointDetector/build;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		1CE9FF10F346488D8A898B35 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/user/PointDetector/build;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		2C91F29EF5B84A91BAC21021 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/user/PointDetector/build;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		32A4316F428E4DF2BD586C54 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-march=native' '-std=gnu++17' ";
-				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-framework Accelerate","-lm","-ldl","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = point_detector;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/user/PointDetector/build;
-				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/Cellar/xtensor/0.24.2/include,/usr/local/include,"$(inherited)");
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		399AAE9B1C27464994B87CF7 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/user/PointDetector/build;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		4EC888E4EAF746288F680CDD /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-march=native' '-std=gnu++17' ";
-				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-framework Accelerate","-lm","-ldl","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = point_detector;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/user/PointDetector/build;
-				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/Cellar/xtensor/0.24.2/include,/usr/local/include,"$(inherited)");
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		652E0B66316F4D0FAF99E5C4 /* Debug */ = {
+		07E121A50D564AEA993A77BF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
@@ -526,51 +398,7 @@ fi
 			};
 			name = Debug;
 		};
-		679DD85A7C094921A778EC22 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/user/PointDetector/build;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		8068BF068CFB48149CF0E562 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-march=native' '-std=gnu++17' ";
-				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-framework Accelerate","-lm","-ldl","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = point_detector;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/user/PointDetector/build;
-				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/Cellar/xtensor/0.24.2/include,/usr/local/include,"$(inherited)");
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		90B409F38DE24A7AAE97A29C /* MinSizeRel */ = {
+		0BA6497E4242432FA2B60D0C /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
@@ -580,47 +408,7 @@ fi
 			};
 			name = MinSizeRel;
 		};
-		AF9CC3AB5D2744178E47F58B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/user/PointDetector/build;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		CBF13A4D35974308858D9C18 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/user/PointDetector/build;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		CDC28F047EBA4B47924ABA31 /* RelWithDebInfo */ = {
+		0CBBD606082A427B8E011264 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
@@ -628,9 +416,9 @@ fi
 				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
 				SYMROOT = /Users/user/PointDetector/build/build;
 			};
-			name = RelWithDebInfo;
+			name = Release;
 		};
-		D468BF87EAEF47EBB1C97C26 /* Debug */ = {
+		481251F5F61F47A5A44B6969 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -654,7 +442,189 @@ fi
 			};
 			name = Debug;
 		};
-		DF781EFF214C4A2B9F0502FE /* RelWithDebInfo */ = {
+		496DC5CF5AE34695A4E65AAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/user/PointDetector/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		5A0C7900F14146A1B672CC45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-march=native' '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-framework Accelerate","-lm","-ldl","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = point_detector;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/user/PointDetector/build;
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/Cellar/xtensor/0.24.2/include,/usr/local/include,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		627CDC2EC0C847E7AF27D83D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = /Users/user/PointDetector/build/build;
+			};
+			name = RelWithDebInfo;
+		};
+		94DEC6834922485083C36274 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/user/PointDetector/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		A09BC4D373654E08BC969C98 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/user/PointDetector/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		ADCCFC64475645578065FE21 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/user/PointDetector/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		AED8EB66106749898F837590 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-march=native' '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-framework Accelerate","-lm","-ldl","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = point_detector;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/user/PointDetector/build;
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/Cellar/xtensor/0.24.2/include,/usr/local/include,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C48C67FC03134AD8B938A29D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/user/PointDetector/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		CF47E34488B24007913DF20C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-march=native' '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-framework Accelerate","-lm","-ldl","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = point_detector;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/user/PointDetector/build;
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/Cellar/xtensor/0.24.2/include,/usr/local/include,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D308A0AD43454D0E90F852EC /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -674,59 +644,89 @@ fi
 			};
 			name = RelWithDebInfo;
 		};
-		F988FEA29226482885A2299A /* Release */ = {
+		D9B761D39A594BF7BFFF3FEB /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
-				SYMROOT = /Users/user/PointDetector/build/build;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/user/PointDetector/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F48B5CFCEB844CF89C1D4C41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/user/PointDetector/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		36E0515622A74DD7BD416549 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		8703E429D7654A02B8498D82 /* Build configuration list for PBXNativeTarget "point_detector" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1CE9FF10F346488D8A898B35 /* Debug */,
-				679DD85A7C094921A778EC22 /* Release */,
-				1A2418363501495BA1090442 /* MinSizeRel */,
-				DF781EFF214C4A2B9F0502FE /* RelWithDebInfo */,
+				481251F5F61F47A5A44B6969 /* Debug */,
+				5A0C7900F14146A1B672CC45 /* Release */,
+				CF47E34488B24007913DF20C /* MinSizeRel */,
+				AED8EB66106749898F837590 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		70EC360D4DF743BF9E2C2D8E /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		9FF62FA0AA5E4126A28AD97F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2C91F29EF5B84A91BAC21021 /* Debug */,
-				AF9CC3AB5D2744178E47F58B /* Release */,
-				CBF13A4D35974308858D9C18 /* MinSizeRel */,
-				399AAE9B1C27464994B87CF7 /* RelWithDebInfo */,
+				C48C67FC03134AD8B938A29D /* Debug */,
+				94DEC6834922485083C36274 /* Release */,
+				D9B761D39A594BF7BFFF3FEB /* MinSizeRel */,
+				ADCCFC64475645578065FE21 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		7C62BA3859084E74991F1442 /* Build configuration list for PBXNativeTarget "point_detector" */ = {
+		A16DF9EAE7D34047A31D1779 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D468BF87EAEF47EBB1C97C26 /* Debug */,
-				8068BF068CFB48149CF0E562 /* Release */,
-				4EC888E4EAF746288F680CDD /* MinSizeRel */,
-				32A4316F428E4DF2BD586C54 /* RelWithDebInfo */,
+				496DC5CF5AE34695A4E65AAA /* Debug */,
+				F48B5CFCEB844CF89C1D4C41 /* Release */,
+				A09BC4D373654E08BC969C98 /* MinSizeRel */,
+				D308A0AD43454D0E90F852EC /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		8860444F4A5544F986BDD401 /* Build configuration list for PBXProject "PointDetector" */ = {
+		D4F3A10F61AB4E9F9FC3855D /* Build configuration list for PBXProject "PointDetector" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				652E0B66316F4D0FAF99E5C4 /* Debug */,
-				F988FEA29226482885A2299A /* Release */,
-				90B409F38DE24A7AAE97A29C /* MinSizeRel */,
-				CDC28F047EBA4B47924ABA31 /* RelWithDebInfo */,
+				07E121A50D564AEA993A77BF /* Debug */,
+				0CBBD606082A427B8E011264 /* Release */,
+				0BA6497E4242432FA2B60D0C /* MinSizeRel */,
+				627CDC2EC0C847E7AF27D83D /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
